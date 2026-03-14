@@ -1,0 +1,8 @@
+/octomap_server:
+  ros__parameters:
+    qos_overrides:
+      /lidar/points_noground:
+        subscription:
+          reliability: best_effort
+          history: keep_last
+          depth: 5

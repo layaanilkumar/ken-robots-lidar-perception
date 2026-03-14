@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    qos_overrides:
+      /lidar/points:
+        subscription:
+          reliability: best_effort
+          durability: volatile
