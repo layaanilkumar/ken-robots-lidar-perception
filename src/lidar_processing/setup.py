@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
     'console_scripts': [
-        'filter_node = lidar_processing.filter_node:main',
+        'filter_node = lidar_processing.filter_node:main','planner_node = lidar_processing.planner_node:main',
     ],
 },
 )
